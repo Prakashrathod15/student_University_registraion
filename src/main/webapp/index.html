@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Registration</title>
+<style>
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#container
+{
+   width: 100vw;
+   height: 100vh;
+   background-image: url(https://images.unsplash.com/photo-1691853533232-78d352cf6d25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80);
+   padding-top: 250px;
+}
+
+#registrationbox
+{
+  height: 150px;
+  width: 300px;
+  margin-left: 550px;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 3px;
+  
+}
+#pass
+{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#name
+{
+  margin-bottom: 3px;
+}
+
+#registrationbox p{
+   color: blue;
+}
+
+
+</style>
+</head>
+<body>
+          <div id="container">
+          
+          <div id="registrationbox">
+            <form action="studentRegistration" method="post">
+            
+             <input id="name"type="text" name="studentName" placeholder="Student Name"/>
+             <p> Create password </p>
+             <input id="pass" type="password" name="password" placeholder="password"/>
+             <input type="submit">
+                
+           </form>  
+              </div>
+          
+          </div>
+</body>
+</html>
